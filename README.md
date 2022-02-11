@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is a Ruby on Rails API project that calls the API at https://bpdts-test-app.herokuapp.com and returns a JSON containing all of the users whose location is listed as London, and all of the users who are within 50 miles of central London (based on their latitude and longitude using the haversine formula). 
 
-* Ruby version
+Tests have been written using Rspec to check the response of the API call
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The endpoint can be reached here: https://ed-bent-bpdts.herokuapp.com/api/v1/users
